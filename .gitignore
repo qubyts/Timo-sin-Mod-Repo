@@ -1,0 +1,23 @@
+# General .gitignore template
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Java build files
+*.class
+*.jar
+
+# Ignore log files
+*.log
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Do NOT ignore zip files
+# (No *.zip entry here)
